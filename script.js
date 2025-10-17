@@ -47,3 +47,13 @@ if (document.body.classList.contains('case-tracker-page')) {
 if (document.body.classList.contains('articles-page')) {
     // Articles page specific JS here
 }
+
+// Hamburger menu toggle
+const burger = document.getElementById('burger');
+const navMenu = document.getElementById('navMenu');
+
+burger.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+});
+
+
